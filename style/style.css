@@ -1,0 +1,55 @@
+*{
+    background: #000;
+}
+.barra{
+    background: black;
+}
+main{
+    margin-top: 100px;
+}
+#imgnetflix{
+    width: 100px;
+}
+.ver{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    color:white;
+}
+.perfiles{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.perfiles div{
+    margin:10px;
+}
+.perfiles img{
+    width: 130px;
+    height: 130px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.perfiles a{
+    color:lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    padding: 10px;
+}
+.administrar{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.administrar h3{
+    color:lightgrey;
+    border:2px solid lightgray;
+    padding-right:50px;
+    padding-left:50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
